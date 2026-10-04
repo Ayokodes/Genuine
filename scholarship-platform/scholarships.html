@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Genuine Scholars scholarship discovery platform"><title>Scholarships — Genuine Scholars</title><link rel="stylesheet" href="css/style.css"></head><body>
+<div class="topbar"><div class="container"><span>Genuine Scholars — Scholarship discovery platform</span><span>UK scholarship opportunities</span></div></div>
+<header class="navbar"><div class="container nav-inner">
+<a class="logo" href="index.html"><img src="images/genuine-scholars-logo.png" alt="Genuine Scholars" class="site-logo"></a>
+<button class="mobile-toggle" aria-label="Open menu">☰</button>
+<nav class="nav-links"><a href="index.html">Home</a><a href="scholarships.html">Scholarships</a><a href="how-it-works.html">How it works</a><a href="ielts.html">IELTS Test</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+<div class="nav-actions"><a class="btn btn-primary btn-sm" href="contact.html">Contact Us</a></div>
+</div></header>
+
+<main><section class="page-head"><div class="container"><span class="eyebrow">Scholarship directory</span><h1 style="font-size:44px">Find your next opportunity</h1><p>Search and filter scholarships by what matters to you.</p></div></section>
+<section class="directory"><div class="container"><div class="mobile-filter"><button class="btn btn-outline" onclick="document.querySelector('.filters').style.display='block'">Filter scholarships</button></div>
+<div class="directory-layout"><aside class="filters card"><h3>Filters</h3><div class="field"><label>Search</label><input id="searchScholarships" placeholder="Search..."></div>
+<div class="filter-group"><h4>Study level</h4><label class="check"><input type="checkbox" data-filter-level value="Undergraduate"> Undergraduate</label><label class="check"><input type="checkbox" data-filter-level value="Master's"> Master's</label><label class="check"><input type="checkbox" data-filter-level value="PhD"> PhD</label></div>
+<div class="filter-group"><h4>Field</h4><label class="check"><input type="checkbox" data-filter-field value="Computer Science"> Computer Science</label><label class="check"><input type="checkbox" data-filter-field value="Engineering"> Engineering</label><label class="check"><input type="checkbox" data-filter-field value="Medicine"> Medicine</label><label class="check"><input type="checkbox" data-filter-field value="Business"> Business</label><label class="check"><input type="checkbox" data-filter-field value="Arts"> Arts</label><label class="check"><input type="checkbox" data-filter-field value="Science"> Science</label></div>
+<div class="filter-group"><h4>Location</h4><label class="check"><input type="checkbox" data-filter-country value="United Kingdom"> United Kingdom</label></div>
+<div class="filter-group"><h4>Funding</h4><label class="check"><input type="checkbox" data-filter-funding value="Fully funded"> Fully funded</label><label class="check"><input type="checkbox" data-filter-funding value="Partially funded"> Partially funded</label><label class="check"><input type="checkbox" data-filter-funding value="Tuition only"> Tuition only</label><label class="check"><input type="checkbox" data-filter-funding value="Stipend"> Stipend</label></div></aside>
+<section><div class="results-head"><div><strong id="resultCount">0 scholarships found</strong></div><select style="border:1px solid var(--border);padding:8px;border-radius:8px"><option>Relevance</option><option>Deadline</option><option>Award amount</option></select></div><div id="results" class="result-grid"></div></section></div></div></section></main>
+
+<footer class="footer"><div class="container footer-grid">
+<div><a class="logo" href="index.html" style="color:#fff"><img src="images/genuine-scholars-logo.png" alt="Genuine Scholars" class="site-logo footer-logo"></a><p>Discover scholarship opportunities and get guidance on preparing your application.</p></div>
+<div><h4>Platform</h4><a href="scholarships.html">Scholarships</a><a href="how-it-works.html">How it works</a><a href="ielts.html">IELTS Test</a></div>
+<div><h4>Company</h4><a href="about.html">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div>
+<div><h4>Support</h4><a href="https://t.me/AgentGeniuneScholar" target="_blank" rel="noopener">Contact Us</a><a href="scholarships.html">Browse scholarships</a></div>
+</div><div class="container footer-bottom"><span>© 2026 Genuine Scholars. All rights reserved.</span><span>Scholarship discovery and application guidance.</span></div></footer>
+<div id="toast" class="toast"></div><script src="js/data.js"></script><script src="js/directory.js"></script></body></html>

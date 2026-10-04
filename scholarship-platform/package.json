@@ -1,0 +1,11 @@
+{
+  "name": "genuine-scholars",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Genuine Scholars scholarship platform with optional Telegram login notifications",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
